@@ -1,28 +1,37 @@
 # 🤖 Multi-Agent Research System
 
+[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-blue)](https://huggingface.co/spaces/sudhir1992/Multi-Agent-Research-System)
+[![Live Demo](https://huggingface.co/spaces/sudhir1992/Multi-Agent-Research-System)
+
 A Streamlit-based AI application that uses multiple agents to research a topic, summarize findings, generate a polished article, and critique the output.
+
+---
+## 🔗 Live Demo
+Aap is project ko yahan live test kar sakte hain:  
+👉 **[Hugging Face Space: Multi-Agent Research System](https://huggingface.co/spaces/sudhir1992/Multi-Agent-Research-System)**
+---
 
 ## 🚀 Features
 
-* 🔎 Search Agent for gathering information
-* 📘 Reader Agent for summarization
-* ✍️ Writer Agent for article generation
-* 🧠 Critic Agent for feedback and improvements
-* 💬 Beautiful ChatGPT-style Streamlit UI
-* 🔐 Environment variable support with `.env`
-* ⚡ Fast Python package management with `uv`
+* 🔎 **Search Agent:** Internet se topic ke baare mein latest information gather karta hai.
+* 📘 **Reader Agent:** Lambe articles aur sources ko summarize karke core details nikalta hai.
+* ✍️ **Writer Agent:** Gathered research ko ek professional aur well-structured report mein convert karta hai.
+* 🧠 **Critic Agent:** Final report ko evaluate karke feedback aur score (X/10) deta hai.
+* 💬 **Beautiful UI:** ChatGPT-style Streamlit interface for easy interaction.
+* 🔐 **Environment Support:** Secure API key management using `.env`.
+* ⚡ **Optimized Performance:** Fast package management with `uv`.
 
 ## 📁 Project Structure
 
 ```text
 Multi-agent-research-system/
-├── app.py
-├── pipeline.py
-├── agents.py
-├── tools.py
-├── requirements.txt
-├── .env
-└── README.md
+├── app.py           # Streamlit Frontend
+├── pipeline.py      # Core logic connecting agents
+├── agents.py        # Agent definitions and prompts
+├── tools.py         # Search and Scraping functions
+├── requirements.txt # Project dependencies
+├── Dockerfile       # Deployment configuration
+└── README.md        # Documentation
 ```
 
 ## 🛠️ Installation
